@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+  <name>jp_simpleshop_j1.5</name>
+  <version>2.0</version>
+  <creationDate>07/09/2010</creationDate>
+  <author>JoomlaPraise</author>
+  <authorEmail>support@joomlapraise.com</authorEmail>
+  <authorUrl>http://www.joomlapraise.com</authorUrl>
+  <copyright>Copyright 2009-2010 Pixel Praise LLC. All rights reserved.</copyright>
+  <description>SimpleShop Remixed Joomla Ecommerce Template</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>component.php</filename>
+    <filename>favicon.ico</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_thumbnail.png</filename>
+	<filename>params.ini</filename>
+	<folder>css</folder>
+	<folder>html</folder>
+	<folder>images</folder>
+  </files>
+  <positions>
+    <position>left</position>
+    <position>right</position>
+    <position>top</position>
+    <position>advert1</position>
+    <position>advert2</position>
+    <position>advert3</position>
+    <position>advert4</position>
+    <position>advert5</position>
+    <position>advert6</position>
+    <position>advert7</position>
+    <position>bottom</position>
+    <position>banner</position>
+    <position>breadcrumb</position>
+    <position>featured</position>
+    <position>inset</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+    <position>user5</position>
+    <position>user6</position>
+    <position>user7</position>
+    <position>user8</position>
+    <position>user9</position>
+    <position>user10</position>
+    <position>user11</position>
+    <position>user12</position>
+    <position>user13</position>
+    <position>user14</position>
+    <position>user15</position>
+    <position>debug</position>
+    <position>footer</position>
+  </positions>
+  <languages>
+    <language tag="en-GB">en-GB.tpl_jp_simpleshop.ini</language>
+  </languages>
+  <administration>
+    <languages folder="admin">
+      <language tag="en-GB">en-GB.tpl_jp_simpleshop.ini</language>
+    </languages>
+  </administration>
+  <params>
+    <param name="templateTheme" type="list" default="theme1" label="Template Theme" description="Choose your template theme">
+      <option value="theme1">Blue</option>
+      <option value="theme2">Black</option>
+      <option value="theme3">Maroon</option>
+      <option value="theme4">Pink</option>
+    </param>
+    <param name="customWidth" type="text" default="" label="Custom Width" description="Type a custom width for the template(example: 90% | 760px)" />
+    <param name="backgroundColor" type="text" default="" label="Custom Background Color" description="Type a custom background color for the template(example: #555555)" />
+    <param name="fontFamily" type="list" default="arial" label="Body Font Family" description="Choose your font family">
+      <option value="arial">Arial, Helvetica, sans-serif</option>
+      <option value="times">"Times New Roman", Times, serif</option>
+      <option value="courier">"Courier New", Courier, monospace</option>
+      <option value="georgia">Georgia,"Times New Roman", Times, serif</option>
+    </param>
+    <param name="headingFontFamily" type="list" default="georgia" label="Heading Font Family" description="Choose your font family">
+      <option value="arial">Arial, Helvetica, sans-serif</option>
+      <option value="times">"Times New Roman", Times, serif</option>
+      <option value="courier">"Courier New", Courier, monospace</option>
+      <option value="georgia">Georgia,"Times New Roman", Times, serif</option>
+    </param>
+    <param name="fontColor" type="text" default="" label="Custom Font Color" description="Type A Hexadecimal Color(#123456) for the font color(Do forget to include the pound(#) sign)" />
+    <param name="headingColor" type="text" default="" label="Custom Heading Color" description="Type A Hexadecimal Color(#123456) for the heading color(Do forget to include the pound(#) sign)" />
+    <param name="linkColor" type="text" default="" label="Custom Link Color" description="Type A Hexadecimal Color(#123456) for the links color(Do forget to include the pound(#) sign)" />
+    <param name="linkHoverColor" type="text" default="" label="Custom Link Hover Color" description="Type A Hexadecimal Color(#123456) for the link hover color(Do forget to include the pound(#) sign)" />
+  </params>
+</install>

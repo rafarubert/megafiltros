@@ -1,0 +1,79 @@
+* { margin:0px; padding:0px; }
+/*background:url("../images/bg.jpg") center top repeat-y #D11923;*/
+body {background:#b1e9fa;font-family: Helvetica,Arial,sans-serif; color: #333333; }
+img, abbr { border:none; }
+a { text-decoration:none; color:#333; }
+a:hover { text-decoration:underline;}
+p { line-height:130%; }
+
+h1, h2, h3, h4 { line-height:100%; }
+h1 {font-size: 140%;}
+h2 {font-size: 125%;}
+h3 {font-size: 110%;}
+h4 {font-size: 100%;}
+.title_box{color: #ca2f1e;letter-spacing: -1px;margin: 16px 0 16px 0;}
+.clear{clear:both;margin:0;padding:0;height:1px;}
+
+#general { background:#fff;width: 980px; margin: auto; overflow: hidden;}
+
+#general #top {height:140px; }
+#general #top h1 {background:url("../images/logo-mega-filtros.gif") no-repeat scroll 0 0 transparent; height: 76px;width: 353px; margin:10px 20px 0 20px;float:left;}
+#general #top h1 span {display:none;}
+#general #top #info {background:url("../images/bg_top_info.jpg") no-repeat bottom right #fff;float:left;height:100px;width: 560px;}
+#general #top #info form {width:264px;float:left;margin: 70px 0 0 144px; padding:4px;}
+#general #top #info form label {color: #fff;font-size: 12px; margin: 0 6px 0 0}
+#general #top #info form input {width:60px;}
+#general #top #info form input[type='submit'] {width:40px}
+#general #top #info .phone{color: #3683ad;width:130px;float:left;margin: 48px 0 0 0;text-align:center;font-size:18px;}
+#general #top ul#menu {height: 40px; float: left; clear: left; width: 890px; margin: 0px 0px 0px 25px; background:url("../images/bgmenu.jpg") no-repeat; padding: 0 0 0 40px; }
+#general #top ul#menu li { list-style: none; float:left; margin: 14px 0px 0px 0px; display: block; font-weight: bold;font-size: 16px; }
+#general #top ul#menu li a { border-left: 2px #fff solid;color: #fff; padding: 4px 20px 0 20px;text-transform:uppercase;  }
+#general #top ul#menu li.item1 a { border:none !important;}
+
+#general #banner{height: 180px;margin: 6px 25px 0 25px;}
+#general #bread_crump {border-bottom: 1px solid #ccc;color:#7f7f7f;border-top: 1px solid #ccc;height: 24px ;margin: 10px 25px 0 25px;padding: 10px 10px 0 10px;}
+#general #bread_crump a {color:#7f7f7f}
+
+
+#general #content{min-height:200px; margin: 10px 25px 0 25px;}
+#general #content #left{float:left; width:210px; border: 1px solid #ccc; padding:10px;-moz-border-radius: 10px; -webkit-border-radius: 10px;}
+#general #content #left #search{}
+#general #content #left #search input {width: 120px;}
+#general #content #left #search input[type='submit'] {width: 40px;}
+
+#general #content #left ul {margin: 0 0 0 0;}
+#general #content #left ul li {margin:0 0 0 16px;padding:4px 0 4px 0;color: #777;list-style-type:circle}
+#general #content #left ul li:hover {color: #ca2f1e;list-style-type:disc}
+#general #content #left ul li a {color: #777}
+#general #content #left ul li a:hover {text-decoration:none}
+
+#general #content #left .cart_resume{display: block;color: #777;}
+#general #content #left .cart_resume span{margin: 0 0 0 0;}
+#general #content #left .cart_resume strong{margin: 0 0 0 46px;}
+
+#general #content #right{border: 1px solid #ccc;float:left; width:666px;margin: 0 0 0 10px;padding:10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;min-height:100px;}
+
+
+#general #content #right .product {width: 188px;height:160px; float:left; margin: 10px 0 0 10px; padding:10px; }
+#general #content #right .product img {float:left; display: block; clear: left; margin: 0px 5px 0px 0px; width:182px; height:100px; border:3px #fff solid;  }
+
+#general #content #right .product:hover {text-decoration: none; }
+#general #content #right .product h3 { color:#ca2f1e; font-size: 12px; float:left; width:190px;  }
+#general #content #right .product strong { color:#777;font-size: 18px; float:left; width: 182px; text-align: left; display: inline-block; margin: 12px 0px 0px 0px; position: relative;}
+#general #content #right .product strong span { background: #3683ad;color: #fff;; padding: 4px; font-size: 18px; top:-6px; right:0px; position: absolute;}
+#general #content #right .product:hover strong span { background:#ca2f1e; color: #FFF; }
+
+
+#general address{border-top: 1px solid #ccc;color:#7f7f7f;height: 30px ;margin: 10px 25px 0 25px;padding: 10px 10px 0 10px;}
+#general address p {float: left;font-size:14px;} 
+#general address img { float: right;} 
+
+/*Paginacao*/
+#pagination {margin: 20px 10px 20px 180px;}
+#pagination li{border:0; margin:0; padding:0;font-size:14px;list-style:none;float:left}
+#pagination a{border:solid 1px #ccc;margin-right:4px;}
+#pagination .previous-off,#pagination .next-off {color:#777;display:block;float:left;font-weight:bold;padding:3px 4px}
+#pagination .next a,#pagination .previous a {font-weight:bold;border:solid 1px #fff}
+#pagination .active{color:#ca2f1e;font-weight:bold;display:block;float:left;padding:4px 6px}
+#pagination a:link,#pagination a:visited {color:#777;display:block;float:left;padding:3px 6px;text-decoration:none}
+#pagination a:hover{border:solid 1px #ca2f1e;color:#ca2f1e}

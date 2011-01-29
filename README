@@ -1,0 +1,9 @@
+Projeto megafiltros
+
+1. Funcionar carrinho com pagamento
+2. Utilizar rastrear pedidos com integração do correios(Correio tem webservice e form html para isto)
+3. Ajustar pequenos detalhes de pagina(layout) como form de login, coluna esquerda e direita
+4. Colocar slide para banner no topo
+5. Colocar espaço para o camarada se cadastrar, sem precisar ter um carrinho
+6. Criar(acho que no joomla) paginas estaticas para o camarada ajustar(vide aguadajarra)
+7. Admin de usuário comum colocar listagem de seus pedidos e alterar dados de sua conta

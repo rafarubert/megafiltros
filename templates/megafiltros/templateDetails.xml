@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5.0" type="template">
+	<name>MegaFiltros</name>
+	<creationDate>03 Jan 11</creationDate>
+	<author>Rafael Cruz Rubert</author>
+	<copyright>Mega Filtros</copyright>
+	<authorEmail>rafarubert@yahoo.com.br</authorEmail>
+	<authorUrl>http://www.yack.com.br</authorUrl>
+	<version>1.0</version>
+	<description>Template para cliente Mega Filtros</description>
+	<files>
+		<filename>blank.html</filename>
+		<filename>footer.php</filename>
+		<filename>images/icons_license.txt</filename>
+		<filename>images/index.html</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/style.css</filename>
+	</files>
+	<positions>
+	  <position>left</position>
+	  <position>right</position>
+	  <position>menu_top</position>
+		<position>form_login</position>
+	  <position>banner</position>
+ 	</positions>
+</install>
